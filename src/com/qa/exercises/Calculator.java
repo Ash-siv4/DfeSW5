@@ -15,6 +15,7 @@ public class Calculator {
 //	Modify the division method so that it takes Double parameters and then return a Double, if not already.
 	
 	
+	
 	public static int add(int num1, int num2) {
 		return num1 + num2;
 	}
