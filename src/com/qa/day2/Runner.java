@@ -12,7 +12,12 @@ public class Runner {
 //		Conditionals.numbers(2);
 //		Conditionals.ride(11, 110);
 		
-		Conditionals.switchCase("MONDAY");
+//		Conditionals.switchCase("MONDAY");
+		
+//		Iteration.forLoop(50);
+//		Iteration.timesTable(1235);
+//		Iteration.whileLoop("y");
+		Iteration.realWorld("y");
 	}
 
 }

@@ -96,4 +96,17 @@ public class Conditionals {
 		}
 	}
 
+	
+	public static void amOrPm(int h, int m) {
+		boolean bool = h>=12 && h<=24;
+		String str = ""+bool;
+		switch (str) {
+		case "true":
+			break;
+		case "false":
+			break;
+		default:
+			System.out.println("");
+		}
+	}
 }
