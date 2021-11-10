@@ -75,10 +75,10 @@ public class Iteration {
 	public static void whileL() {
 		System.out.println("------------while---------");
 		int count = 3;
-		while (count < 3) {
+		while (count < 3) {//3<3 -> false
 			count++;
 			System.out.println(count);
-		}
+		}//ends
 	}
 
 	public static void doWhileL() {
@@ -86,10 +86,10 @@ public class Iteration {
 		int count = 3;
 		
 		do{
-			count++;
-			System.out.println(count);
+			count++;//3+1 , count=4
+			System.out.println(count);// 4
 		}
-		while(count<3);
+		while(count<3);//4<3 -> false
 	}
 
 }

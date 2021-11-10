@@ -18,6 +18,7 @@ public class DataTypes {
 	short number = 2;//default = 0
 	float decimal = 4.5f;//default = 0.0
 	char myChar = 'A';//default = null
+	Float x;
 	
 	//single instance across all objects
 	static String name = "ash";
