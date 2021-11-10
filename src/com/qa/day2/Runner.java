@@ -17,7 +17,11 @@ public class Runner {
 //		Iteration.forLoop(50);
 //		Iteration.timesTable(1235);
 //		Iteration.whileLoop("y");
-		Iteration.realWorld("y");
+//		Iteration.realWorld();
+		
+		
+		Iteration.whileL();
+		Iteration.doWhileL();
 	}
 
 }
