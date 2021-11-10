@@ -1,6 +1,7 @@
 package com.qa.exercises;
 
 import com.qa.exercises.conditionals.BlackJack;
+import com.qa.exercises.conditionals.FizzBuzz;
 import com.qa.exercises.conditionals.Flowcharts;
 import com.qa.exercises.conditionals.Taxes;
 import com.qa.exercises.iteration.Coins;
@@ -53,6 +54,10 @@ public class Runner {
 		System.out.println("Taxed amount for salary of " + salary + " = " + Taxes.method2(salary));
 
 		// FIZZBUZZ TASK
+		System.out.println(FizzBuzz.fizzBuzz(24));// multiple of 3 -> fizz
+		System.out.println(FizzBuzz.fizzBuzz(25));// multiple of 5 -> buzz
+		System.out.println(FizzBuzz.fizzBuzz(60));// multiple of 3&5 -> fizzbuzz
+		System.out.println(FizzBuzz.fizzBuzz(11));// neither -> input number: 11
 
 		// -------------------------------------------ITERATION EXERCISES
 
