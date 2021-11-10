@@ -1,4 +1,4 @@
-package com.qa.exercises;
+package com.qa.exercises.conditionals;
 
 public class BlackJack {
 

@@ -87,11 +87,13 @@ public class Arrays {
 		//will have to import the ArrayList class -> click import 
 		ArrayList<Integer> arr1 = new ArrayList<>();
 		System.out.println("before add: "+ arr1);
+		//add() - adds to the array
 		arr1.add(23);//0
 		arr1.add(24);//1
 		arr1.add(25);//2
 		System.out.println("size of arrayList: "+ arr1.size());
 		System.out.println("after add: "+ arr1);
+		//remove(index) - removes the value at the index from the array
 		arr1.remove(1);
 		System.out.println("remove index 1: "+ arr1);
 		System.out.println("new value at index 1: "+ arr1.get(1));
@@ -99,6 +101,7 @@ public class Arrays {
 //		(25);//1
 		arr1.remove(1);
 		System.out.println("remove index 1: "+ arr1);
+		arr1.clear();//removes everything in the arrayList - wipes all data
 		//Scanner sc = new Scanner();
 	}
 	

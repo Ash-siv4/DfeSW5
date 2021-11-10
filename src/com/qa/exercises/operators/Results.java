@@ -1,4 +1,4 @@
-package com.qa.exercises;
+package com.qa.exercises.operators;
 
 ;
 
@@ -16,9 +16,9 @@ public class Results {
 //	Try to make the output neat and bespoke for each exam.
 //	Method 2 - which finds and displays the percentage that the person received for the exams overall.
 
-	static int phys;
-	static int chem;
-	static int bio;
+	public static int phys;
+	public static int chem;
+	public static int bio;
 
 	public static int totalMark() {
 		int total = phys + chem + bio;
