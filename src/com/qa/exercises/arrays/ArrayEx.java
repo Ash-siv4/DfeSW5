@@ -17,6 +17,8 @@ public class ArrayEx {
 		}
 		System.out.println("--------------");
 		//for-each loop
+		//for-each loop is ideal for iterating through arrays and collections of data
+		// for( DataType value : array_name)
 		for (int i : num) {
 			System.out.println("Number: " + i);
 		}
@@ -24,7 +26,6 @@ public class ArrayEx {
 
 	public static void task2() {
 		ArrayList<Integer> array = new ArrayList<>();
-
 		for (int i = 0; i < num.length; i++) {
 			array.add(num[i]);
 			System.out.println(array);
